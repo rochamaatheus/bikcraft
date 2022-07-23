@@ -5,12 +5,9 @@
   display: flex;
   flex-wrap: wrap;
   gap: 1.25rem;
-  max-width: 75rem;
-  box-sizing: border-box;
   justify-content: space-between;
   align-items: center;
   padding: 1.25rem;
-  margin: 0 auto;
 }
 .header-menu {
   display: flex;
