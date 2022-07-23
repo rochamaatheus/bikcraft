@@ -21,6 +21,8 @@
 }
 .font-1-m-b {
   font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5%;
 }
 .font-2-m {
   font: 500 1.125rem/1.33 "Roboto", sans-serif;
@@ -55,5 +57,25 @@
   .font-1-xl,
   .font-2-xl {
     font-size: 1.5rem;
+  }
+}
+@media (max-width: 30rem) {
+  /* 480px */
+  .font-1-xxl {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 13.125rem) {
+  /* 210 */
+  .font-1-xxl,
+  .font-1-xl,
+  .font-1-l {
+    font-size: 1.2rem;
+  }
+  .font-2-m,
+  .font-1-m-b,
+  .font-2-l,
+  .font-2-s {
+    font-size: 0.9rem;
   }
 }
