@@ -64,3 +64,10 @@
     font-size: 0.875rem;
   }
 }
+@media (max-width: 13.125rem) {
+  /* 210 */
+  .header-menu a {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.6rem;
+  }
+}

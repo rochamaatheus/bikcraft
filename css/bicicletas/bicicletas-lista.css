@@ -1,6 +1,5 @@
 .bicicletas-lista {
-  padding-top: 3.75rem;
-  padding-bottom: 7.5rem;
+  padding: 3.75rem 0 7.5rem 0;
 }
 .bicicletas-lista h2 {
   margin-bottom: 2.5rem;
@@ -46,5 +45,15 @@
   }
   .bicicletas-lista ul {
     gap: 1.25rem;
+  }
+}
+@media (max-width: 13.125rem) {
+  /* 210 */
+  .bicicletas-lista {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .bicicletas-lista li {
+    min-width: 15rem;
   }
 }

@@ -44,3 +44,22 @@
     padding: 1.25rem;
   }
 }
+@media (max-width: 37.5rem) {
+  /* 600px */
+  .parceiros h2 {
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+  }
+}
+@media (max-width: 13.125rem) {
+  /* 210 */
+  .parceiros {
+    padding: 1rem 0 1.5rem 0;
+  }
+  .parceiros h2 {
+    margin-bottom: 0;
+  }
+  .parceiros li {
+    padding: .6rem;
+  }
+}
