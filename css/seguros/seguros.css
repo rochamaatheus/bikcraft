@@ -57,39 +57,3 @@
     grid-template-columns: 1fr;
   }
 }
-@media (max-width: 19.375rem) {
-  /* 310px */
-  .seguros-item h3 {
-    grid-column: 1;
-    margin-bottom: 3rem;
-  }
-  .seguros-item span {
-    text-align: initial;
-  }
-}
-@media (max-width: 14.375rem) {
-  /* 230px */
-  .seguros {
-    grid-template-columns: 1fr;
-  }
-  .seguros-item h3 {
-    margin-bottom: 1rem;
-  }
-  .seguros-item span {
-    grid-column: 1;
-    margin-bottom: 1rem;
-  }
-}
-@media (max-width: 13.125rem) {
-  /* 210 */
-  .seguros {
-    padding-top: 1.5rem;
-    padding-bottom: 2rem;
-  }
-}
-@media (max-width: 13.0625rem) {
-  /* 209px */
-  .seguros-item {
-    padding: 1rem 1rem 1rem 2.75rem;
-  }
-}

@@ -25,6 +25,22 @@
 .botao.secundario:hover {
   background: var(--cor-9);
 }
+.botao.seta {
+  display: flex;
+  align-items: center;
+}
+.botao.seta::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url(../../icons/seta.svg);
+  transition: trasform .3s;
+}
+.botao.seta:hover::after {
+  transform: translateX(4px);
+}
 @media (max-width: 37.5rem) {
   /* 600px */
   .botao {
@@ -48,31 +64,24 @@
 .link:hover {
   color: var(--cor-0);
 }
-@media (max-width: 18.375rem) {
-  /* 294 */
-  .link::after {
-    max-width: 160px;
-  }
+/* titulo interno */
+.titulo-bg {
+  background-color: var(--cor-11);
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
 }
-@media (max-width: 13.0625rem) {
-  /* 209 */
-  .botao,
-  .botao.secundario {
-    padding: 0.6rem 0.7rem;
-    font-size: 0.7rem;
+.titulo p {
+  margin-bottom: 4px;
+}
+@media (max-width: 50rem) {
+  /* 800px */
+  .titulo-bg {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
-  .link {
+  .titulo p {
     font-size: 1rem;
-  }
-  .link::after {
-    max-width: 100px;
-  }
-}
-@media (max-width: 10.625rem) {
-  /* 170px */
-  .botao,
-  .botao.secundario {
-    padding: 0.6rem 0.7rem;
-    font-size: 0.6rem;
+    text-transform: lowercase;
+    font-weight: 400;
   }
 }

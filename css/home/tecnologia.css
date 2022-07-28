@@ -65,10 +65,3 @@
     flex-direction: column;
   }
 }
-@media (max-width: 13.125rem) {
-  /* 210px */
-  .tecnologia-conteudo {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-  }
-}
