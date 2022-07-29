@@ -10,6 +10,9 @@
   padding: 0 1.25rem 1.25rem 1.25rem;
   overflow-x: auto;
 }
+#bicicleta .bicicletas-lista ul {
+  padding: 0 0 1.25rem 0;
+}
 .bicicletas-lista li {
   min-width: 17.5rem;
 }
