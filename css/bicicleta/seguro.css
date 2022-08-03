@@ -19,6 +19,9 @@
 .seguro h2 {
   margin-bottom: 1.25rem;
 }
+.seguro p {
+  margin-bottom: 1.25rem;
+}
 @media (max-width: 50rem) {
   /* 800px */
   .seguro-bg {
@@ -31,5 +34,8 @@
     grid-row: 1;
     padding-top: 2.5rem;
     padding-bottom: 0;
+  }
+  .seguro-imagem {
+    height: 18.75rem;
   }
 }

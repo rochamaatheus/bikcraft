@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Termos e Condições.">
   <title>Magic | Bikcraft</title>
+  <link rel="preload" href="../css/style.css" as="style">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="shortcut icon" href="../icons/favicon.svg" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +20,7 @@
   <header class="header-bg">
     <div class="header container">
       <a href="../">
-        <img src="../icons/bikcraft.svg" alt="Bikcraft Logo">
+        <img src="../icons/bikcraft.svg" width="136" height="32" alt="Bikcraft Logo">
       </a>
       <nav aria-label="primaria">
         <ul class="header-menu font-1-m cor-0">
@@ -39,38 +40,38 @@
     </div>
     <div class="bicicleta container">
       <div class="bicicleta-imagens">
-        <img src="../img/magic.jpg" alt="">
-        <img src="../img/nimbus.jpg" alt="">
-        <img src="../img/nebula.jpg" alt="">
+        <img src="../img/magic.jpg" width="1120" height="680" alt="Bicicleta preta">
+        <img src="../img/nimbus.webp" width="1120" height="680" alt="Bicicleta preta">
+        <img src="../img/nebula.jpg" width="1120" height="680" alt="Bicicleta branca">
       </div>
       <div class="bicicleta-conteudo">
         <p class="font-2-l cor-5">A Magic Might é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
 
         <div class="bicicleta-comprar">
             <a class="botao" href="../orcamento.html">Comprar Agora</a>
-            <span class="font-1-xs cor-6"><img src="../icons/entrega-c.svg">entrega em 5 dias</span>
-            <span class="font-1-xs cor-6"><img src="../icons/estoque-c.svg">18 em estoque</span>
+            <span class="font-1-xs cor-6"><img src="../icons/entrega-c.svg" width="14" height="10" alt="">entrega em 5 dias</span>
+            <span class="font-1-xs cor-6"><img src="../icons/estoque-c.svg" width="15" height="15" alt="">18 em estoque</span>
         </div>
 
         <h2 class="font-1-xs cor-0">Informações</h2>
         <ul class="bicicleta-informacoes">
             <li>
-              <img src="../icons/eletrica-a.svg">
+              <img src="../icons/eletrica-a.svg" width="24" height="24" alt="">
               <h3 class="font-1-m cor-0">Motor Elétrico</h3>
               <p class="font-2-xs cor-5">Permite você viajar distâncias inimaginaveis com a sua bike.</p>
             </li>
             <li>
-              <img src="../icons/velocidade-a.svg">
+              <img src="../icons/velocidade-a.svg" width="24" height="24" alt="">
               <h3 class="font-1-m cor-0">45 km/h</h3>
               <p class="font-2-xs cor-5">A mais rápida bicicleta elétrica disponível hoje no mercado.</p>
             </li>
             <li>
-              <img src="../icons/rastreador-a.svg">
+              <img src="../icons/rastreador-a.svg" width="24" height="24" alt="">
               <h3 class="font-1-m cor-0">Rastreador</h3>
               <p class="font-2-xs cor-5">Rastreador e sistema anti-furto para garantir o seu sossego.</p>
             </li>
             <li>
-              <img src="../icons/carbono-a.svg">
+              <img src="../icons/carbono-a.svg" width="24" height="24" alt="">
               <h3 class="font-1-m cor-0">Fibra de Carbono</h3>
               <p class="font-2-xs cor-5">Maior proteção possível para a sua Bikcraft com fibra de carbono.</p>
             </li>
@@ -104,15 +105,21 @@
     <h2 class="font-1-xxl">escolha a sua<span class="cor-p1">.</span></h2>
     <ul class="vazamento-grid">
       <li>
-        <a href="./magic.html">
-          <img src="../img/nimbus.jpg" alt="Bicicleta preta">
+        <a href="./nimbus.html">
+          <picture>
+            <source media="(max-width: 50rem)" srcset="../img/nimbus-mobile.webp">
+            <img src="../img/nimbus.webp" width="1120" height="680" alt="Bicicleta preta">
+          </picture>
           <h3 class="font-1-xl">Nimbus Stark</h3>
           <span class="font-2-m cor-8">R$ 4999</span>
         </a>
       </li>
       <li>
         <a href="./nebula.html">
-          <img src="../img/nebula.jpg" alt="Bicicleta preta">
+          <picture>
+            <source media="(max-width: 50rem)" srcset="../img/nebula-mobile.webp">
+            <img src="../img/nebula.jpg" width="1120" height="680" alt="Bicicleta branca">
+          </picture>
           <h3 class="font-1-xl">Nebula Cosmic</h3>
           <span class="font-2-m cor-8">R$ 3999</span>
         </a>
@@ -123,7 +130,10 @@
   <article class="seguro-bg">
     <div class="seguro container">
       <div class="seguro-imagem">
-        <img src="../img/seguros.jpg" alt="Pessoa parada em cima de uma bicicleta.">
+        <picture>
+          <source media="(max-width: 50rem)" srcset="../img/seguros-mobile.webp">
+          <img src="../img/seguros.jpg" width="1360" height="1496" alt="Pessoa parada em cima de uma bicicleta.">
+        </picture>
       </div>
       <div class="seguro-conteudo">
         <h2 class="font-1-xxl cor-0">Pedale mais tranquilo com o nosso <span class="cor-p1">seguro</span></h2>
@@ -135,7 +145,7 @@
 
   <footer class="footer-bg">
     <div class="footer container">
-      <a href="../"><img src="../icons/bikcraft.svg" alt="Bikcraft"></a>
+      <a href="../"><img src="../icons/bikcraft.svg" width="136" height="32" alt="Bikcraft"></a>
       <div class="footer-contato">
         <h3 class="font-2-l-b cor-0">Contato</h3>
         <ul class="font-2-m cor-5">
@@ -146,13 +156,13 @@
         </ul>
         <div class="footer-redes">
           <a href="#instagram">
-            <img src="../icons/redes-sociais/instagram.svg" alt="Instagram">
+            <img src="../icons/redes-sociais/instagram.svg" width="32" height="32" alt="Instagram">
           </a>
           <a href="#facebook">
-            <img src="../icons/redes-sociais/facebook.svg" alt="Facebook">
+            <img src="../icons/redes-sociais/facebook.svg" width="32" height="32" alt="Facebook">
           </a>
           <a href="#youtube">
-            <img src="../icons/redes-sociais/youtube.svg" alt="Youtube">
+            <img src="../icons/redes-sociais/youtube.svg" width="32" height="32" alt="Youtube">
           </a>
         </div>
       </div>
