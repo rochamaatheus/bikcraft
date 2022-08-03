@@ -16,6 +16,7 @@
 .depoimento-conteudo {
   padding: 2.5rem 2.5rem 5rem 5rem;
   align-self: end;
+  background: url("../../icons/dec/bottom-right-p.svg") no-repeat bottom 2.5rem right 2.5rem;
 }
 .depoimento-conteudo p {
   max-width: 32ch;

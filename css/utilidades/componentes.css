@@ -72,6 +72,9 @@
   padding-top: 3.75rem;
   padding-bottom: 3.75rem;
 }
+.titulo {
+  background: url("../../icons/dec/top-right.svg") no-repeat top right 1.25rem;
+}
 .titulo p {
   margin-bottom: 4px;
 }
