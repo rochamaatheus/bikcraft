@@ -43,18 +43,38 @@
 }
 @media (max-width: 50rem) {
   /* 800px */
-  .footer > img {
-    display: none;
-  }
   .footer {
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .footer-informacoes {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .footer-contato {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .footer-copy {
+    margin-top: 0;
+  }
+  #bik-footer {
+    display: none;
   }
 }
 @media (max-width: 37.5rem) {
   /* 600px */
   .footer {
     grid-template-columns: 1fr;
-    gap: 3.75rem;
+    gap: 0;
+  }
+  .footer-informacoes {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .footer div + div{
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
   }
   .footer-copy {
     margin-top: 0;
